@@ -1,0 +1,16 @@
+Requirements:
+В терменале прописать:
+pip install pyTelegramBotAPI
+
+Если что-то будет не запускаться, можно перезаписать импорты:
+import telebot
+import requests
+import json
+import os
+import datetime
+import time
+
+from telebot import types
+from telebot.handler_backends import State, StatesGroup
+from telebot.storage import StateMemoryStorage
+from telebot import custom_filters
